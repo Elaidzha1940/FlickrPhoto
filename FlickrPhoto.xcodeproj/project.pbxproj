@@ -11,6 +11,10 @@
 		E492FE582B17154C0043144B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492FE572B17154C0043144B /* ContentView.swift */; };
 		E492FE5A2B17154D0043144B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E492FE592B17154D0043144B /* Assets.xcassets */; };
 		E492FE5D2B17154D0043144B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E492FE5C2B17154D0043144B /* Preview Assets.xcassets */; };
+		E492FE642B1719340043144B /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492FE632B1719340043144B /* PhotoItem.swift */; };
+		E492FE662B1719C20043144B /* FullScreenPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492FE652B1719C20043144B /* FullScreenPhotoView.swift */; };
+		E492FE682B171A030043144B /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492FE672B171A030043144B /* FlickrAPI.swift */; };
+		E492FE6A2B171A4F0043144B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492FE692B171A4F0043144B /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E492FE572B17154C0043144B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E492FE592B17154D0043144B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E492FE5C2B17154D0043144B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E492FE632B1719340043144B /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		E492FE652B1719C20043144B /* FullScreenPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPhotoView.swift; sourceTree = "<group>"; };
+		E492FE672B171A030043144B /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		E492FE692B171A4F0043144B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				E492FE552B17154C0043144B /* FlickrPhotoApp.swift */,
+				E492FE652B1719C20043144B /* FullScreenPhotoView.swift */,
 				E492FE572B17154C0043144B /* ContentView.swift */,
 				E492FE592B17154D0043144B /* Assets.xcassets */,
 				E492FE5B2B17154D0043144B /* Preview Content */,
+				E492FE632B1719340043144B /* PhotoItem.swift */,
+				E492FE672B171A030043144B /* FlickrAPI.swift */,
+				E492FE692B171A4F0043144B /* SearchBar.swift */,
 			);
 			path = FlickrPhoto;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E492FE662B1719C20043144B /* FullScreenPhotoView.swift in Sources */,
 				E492FE582B17154C0043144B /* ContentView.swift in Sources */,
 				E492FE562B17154C0043144B /* FlickrPhotoApp.swift in Sources */,
+				E492FE642B1719340043144B /* PhotoItem.swift in Sources */,
+				E492FE682B171A030043144B /* FlickrAPI.swift in Sources */,
+				E492FE6A2B171A4F0043144B /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
